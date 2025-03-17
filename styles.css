@@ -1,0 +1,68 @@
+/* Custom Colors */
+.bg-primary {
+    background-color: #00ff0de0; /* GOMYCODE blue */
+}
+
+.text-primary {
+    color: #007bff;
+}
+
+.text-warning {
+    color: #ffc107; /* Bright yellow for CTAs */
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+    color: #333;
+}
+
+/* Body */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    min-height: 100vh;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar .nav-link {
+    padding: 10px 0;
+    transition: color 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    color: #007bff;
+}
+
+/* Main Content */
+.main-content {
+    padding-top: 20px;
+}
+
+.hero {
+    background: linear-gradient(to right, rgba(0, 123, 255, 0.8), rgba(0, 123, 255, 0.5));
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer a:hover {
+    color: #fff;
+}
